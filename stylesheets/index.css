@@ -71,10 +71,26 @@ border-bottom: 1px solid #CCB671;
     font-family: 'Playfair Display', serif;
     color: white;
     font-size: 36px;
-    text-align: center;
+    text-align: end;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 
+}
+
+.headshot{
+    border-radius: 100%;
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+
+}
+
+.img {
+    vertical-align: middle;
+    border-style: none;
 }
 
 @media screen and (min-width: 700px) {
