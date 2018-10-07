@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+
+
+
+.navbar {
+background-color: white;
+border-bottom: 1px solid #CCB671;
+
+}
+.logo-text {
+ color: black;
+ font-size: 24px;
+ display: inline-block;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    display: inline;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    white-space: nowrap;
+    font-family: 'Playfair Display', serif;
+    
+    
+
+    /* outline: 1px solid red */
+}
+
+.nav-link {
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 8px;
+    
+}
+
+.nav-container {
+    display: inline-block;
+    
+}
+
+.hero-image {
+    background-image: url(../images/alarm-clock-art-background-1037993.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    min-height: 1000px;
+    min-width: 100%;
+
+
+}
+
+.hero-image h1 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    position: absolute;
+
+
+}
+
+@media screen and (min-width: 700px) {
+    .navbar-brand {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
