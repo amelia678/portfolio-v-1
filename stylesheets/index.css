@@ -32,7 +32,8 @@ border-bottom: 1px solid #CCB671;
     padding-left: 8px;
     padding-right: 8px;
     white-space: nowrap;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    
     
     
 
@@ -41,7 +42,7 @@ border-bottom: 1px solid #CCB671;
 
 .nav-link {
     color: black;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
