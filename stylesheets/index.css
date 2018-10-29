@@ -6,8 +6,9 @@ html {
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: left;
+    
 }
 
 
@@ -17,6 +18,7 @@ body {
 background-color: white;
 border-bottom: 1px solid #CCB671;
 display: flex;
+width: 100%;
 
 }
 .logo-text {
@@ -32,8 +34,9 @@ display: flex;
     padding-bottom: 0;
     padding-left: 8px;
     padding-right: 8px;
-    white-space: nowrap;
+    white-space: normal;
     font-family: 'Raleway', sans-serif;
+    
     
     
     
@@ -49,7 +52,9 @@ display: flex;
     letter-spacing: 1px;
     text-align: center;
     text-decoration: none;
-    margin-right: 8px;
+    margin-right: 6px;
+    
+  
     
 }
 
@@ -61,10 +66,15 @@ display: flex;
 .hero-image {
     background-image: url(../images/gem-pink-precious-1468309.jpg);
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;
-    min-height: 1000px;
+    background-position: center center;
+    background-size: cover;
+    min-height: 500px;
     min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 3px;
 
 
 }
@@ -78,7 +88,7 @@ display: flex;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    opacity: 0.8;
 
 }
 
@@ -90,18 +100,20 @@ display: flex;
 }
 
 .headshot{
+    
     border-radius: 50%;
-    width: 50%;
-    /* height: 50%;
-    object-fit: scale-down; */
+    min-width: 50px;
+    min-height: 50px;
+    /* height: 150px; */
+    /* object-fit: scale-down;  */
 
 }
-/* how to center an image !!! */
+/* how to center an image and control size !!! */
 .my-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
 }
 
 .image-container {
@@ -115,10 +127,15 @@ display: flex;
 }
 
 
-@media screen and (min-width: 700px) {
+
+
+@media screen and (min-width: 500px) {
     .navbar-brand {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between;  
         align-items: center;
+        
     }
+    
+    
 }
