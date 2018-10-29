@@ -16,6 +16,7 @@ body {
 .navbar {
 background-color: white;
 border-bottom: 1px solid #CCB671;
+display: flex;
 
 }
 .logo-text {
