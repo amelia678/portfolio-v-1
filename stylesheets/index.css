@@ -127,11 +127,14 @@ width: 100%;
 }
 .bio {
     margin: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 h2 {
     text-align: center;
     color: lightseagreen;
+    font-size: 32px;
 }
 
 .h2-padding {
