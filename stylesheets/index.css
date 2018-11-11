@@ -68,7 +68,7 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 500px;
+    min-height: 450px;
     min-width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +80,7 @@ width: 100%;
 }
 
 .hero-image h1 {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
     color: white;
     font-size: 36px;
     text-align: end;
@@ -124,6 +124,14 @@ width: 100%;
     
 
 
+}
+.bio {
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: lightseagreen;
 }
 
 
