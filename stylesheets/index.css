@@ -144,9 +144,8 @@ h2 {
 }
 
 .contact-links {
-    background-color:pink;
+    background-color: darkslategrey;
     padding:  8px 12px;
-
     display: flex;
     justify-content: center;
 }
@@ -167,7 +166,7 @@ h2 {
 .contact-links a:hover .fas,
 .contact-links a:active .fab,
 .contact-links a:active .fas  {
-    color: aquamarine;
+    color: lightblue;
     animation-name: zoom;
     animation-duration: .25s;
     animation-fill-mode: forwards;
