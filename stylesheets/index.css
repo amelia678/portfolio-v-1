@@ -104,6 +104,7 @@ width: 100%;
     border-radius: 50%;
     min-width: 50px;
     min-height: 50px;
+    margin: 20px;
     /* height: 150px; */
     /* object-fit: scale-down;  */
 
@@ -142,8 +143,36 @@ h2 {
     padding-bottom: 80px;
 }
 
+.contact-links {
+    background-color:pink;
+    padding:  8px 12px;
 
+    display: flex;
+    justify-content: center;
+}
 
+.contact-links .fab,
+.contact-links .fas {
+    color: white;
+    font-size: 36px;
+    
+    
+}
+
+.contact-links a {
+    margin: 0 28px;
+}
+
+.contact-links a:hover .fab,
+.contact-links a:hover .fas,
+.contact-links a:active .fab,
+.contact-links a:active .fas  {
+    color: aquamarine;
+    animation-name: zoom;
+    animation-duration: .25s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
 @media screen and (min-width: 500px) {
     .navbar-brand {
         display: flex;
