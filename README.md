@@ -8,4 +8,5 @@ This is the first version of my portflio website,
 - Hero image
 - Headshot
 - About me
-- projects
+- Projects
+- Contact info

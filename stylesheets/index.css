@@ -153,11 +153,18 @@ h2 {
 }
 
 .h2-padding {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 
+.portfolio {
+    background-color: lightsteelblue;
+}
 
+h3 {
+    padding: 20px;
+    color: white;
+}
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
