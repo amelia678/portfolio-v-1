@@ -3,7 +3,7 @@
 This is the first version of my portflio website,
 
 
-##Features
+## Features
 - Header
 - Hero image
 - Headshot
