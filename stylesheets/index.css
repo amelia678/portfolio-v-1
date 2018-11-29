@@ -229,6 +229,18 @@ h3 {
         
     }
     
-    
+    .about-me {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .about-me-container {
+        width: 70%;
+        padding-right: 18px;
+    }
+
+    .my-photo {
+        width: 30%;
+    }
 }
 
