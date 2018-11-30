@@ -70,6 +70,15 @@ width: 100%;
   
 }
 
+.sticky {
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+.sticky + body {
+    padding-top:102px;
+}
 
 .hero-image {
     background-image: url(../images/gem-pink-precious-1468309.jpg);
