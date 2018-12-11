@@ -102,10 +102,11 @@ width: 100%;
     /* font-family: 'Playfair Display', serif; */
     color: white;
     font-size: 36px;
-    text-align: end;
+    text-align: left;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
+    /* right: 30%; */
     transform: translate(-50%, -50%);
     opacity: 0.8;
 
