@@ -187,6 +187,16 @@ h3 {
     display: flex;
     width: 70%;
 }
+
+.skill-icons {
+    display: flex;
+    justify-content: center;
+    /* padding: 8px 12px;
+    margin: 5px; */
+    align-content: space-around;
+
+
+}
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
