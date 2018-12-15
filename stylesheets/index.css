@@ -194,8 +194,19 @@ h3 {
     /* padding: 8px 12px;
     margin: 5px; */
     align-content: space-around;
+    flex-wrap: wrap;
 
+}
 
+.skill-icons .fab,
+.skill-icons .fas,
+.skill-icons img{
+    font-size: 50px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+   
+    align-content: space-evenly;
 }
 #myBtn {
     display: none; /* Hidden by default */
