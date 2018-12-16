@@ -193,7 +193,7 @@ h3 {
 }
 
 .project-holder {
-    outline: solid 5px blue;
+    /* outline: solid 5px blue; */
     display: flex;
     align-items: center;
     text-align: center;
@@ -210,13 +210,25 @@ h3 {
     min-height: 300px;
     flex-direction: column;
     align-items: center;
-    outline: solid 5px red;
+    /* outline: solid 5px red; */
     margin: 5px;
     min-width: 500px;
     
     
 }
 
+.project-buttons a{
+    displaY: inline-block;
+    border: 2px solid paleturquoise;
+    color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 7px 10px;
+    font-weight: 500;
+
+
+}
 .skill-icons {
     display: flex;
     justify-content: center;
