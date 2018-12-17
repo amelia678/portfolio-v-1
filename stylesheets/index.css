@@ -76,6 +76,7 @@ width: 100%;
     position:fixed;
     top:0;
     width:100%;
+    z-index: 1030;
 }
 
 .sticky + body {
@@ -189,7 +190,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    width: 70%;
+    width: 100%;
 }
 
 .project-holder {
@@ -215,6 +216,42 @@ h3 {
     min-width: 500px;
     
     
+}
+
+/* OVERLAY project photo */
+.overlay-container {
+    /* position: relative; */
+    position: relative;
+    width: 90%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: skyblue;
+}
+
+.overlay-container:hover .overlay {
+    opacity: .9;
+}
+
+.project-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .project-buttons a{
