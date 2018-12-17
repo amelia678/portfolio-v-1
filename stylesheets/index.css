@@ -171,10 +171,7 @@ h2 {
 
 .portfolio {
     background-color: lightsteelblue;
-    /* flex-wrap: wrap; */
-    
-
-    /* flex-flow: row-reverse; */
+   
 }
 
 .portfolio-text {
