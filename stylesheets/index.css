@@ -182,21 +182,20 @@ h3 {
     font-size: 26px;
 }
 .project-photo {
-    /* max-width: 700px; */
-    max-height: 600px;
+    max-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display: inline-block;
     width: 100%;
 }
 
 .project-holder {
     /* outline: solid 5px blue; */
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
    
 }
 
