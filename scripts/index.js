@@ -38,14 +38,18 @@ function stickyFunction() {
 const photospotterImg = document.getElementById('photospotterImg');
 const reactCitalImg = document.getElementById('reactCitalImg')
 
-// photospotterImg.addEventListener('mouseover', () => {
-//     photospotterImg.src = "../images/photospotter-gif.mov"
-// });
+photospotterImg.addEventListener('mouseover', () => {
+    photospotterImg.src = "../images/photospotter-fast.gif"
+});
+
+photospotterImg.addEventListener('mouseout', () => {
+    photospotterImg.src = "../images/photospotter-screenshot-min.jpg"
+});
 
 reactCitalImg.addEventListener('mouseover', () => {
     reactCitalImg.src= "../images/react-cital-piano.gif"
 })
 
 reactCitalImg.addEventListener('mouseout', () => {
-    reactCitalImg.src= "../images/React-cital-screenshot.png"
+    reactCitalImg.src= "../images//Users/ameliaschulz/digitalcrafts/amelias-web/images/React-cital-screenshot.png"
 })
