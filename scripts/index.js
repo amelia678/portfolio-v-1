@@ -51,5 +51,5 @@ reactCitalImg.addEventListener('mouseover', () => {
 })
 
 reactCitalImg.addEventListener('mouseout', () => {
-    reactCitalImg.src= "../images//Users/ameliaschulz/digitalcrafts/amelias-web/images/React-cital-screenshot.png"
+    reactCitalImg.src= "../images/React-cital-screenshot.png"
 })
