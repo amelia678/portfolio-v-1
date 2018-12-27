@@ -34,3 +34,18 @@ function stickyFunction() {
     //     header.classList.remove("sticky");
     }
 }
+
+const photospotterImg = document.getElementById('photospotterImg');
+const reactCitalImg = document.getElementById('reactCitalImg')
+
+// photospotterImg.addEventListener('mouseover', () => {
+//     photospotterImg.src = "../images/photospotter-gif.mov"
+// });
+
+reactCitalImg.addEventListener('mouseover', () => {
+    reactCitalImg.src= "../images/react-cital-piano.gif"
+})
+
+reactCitalImg.addEventListener('mouseout', () => {
+    reactCitalImg.src= "../images/React-cital-screenshot.png"
+})

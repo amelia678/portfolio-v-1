@@ -221,11 +221,11 @@ h3 {
 
 .overlay {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 70%;
+  bottom:0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 25%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
@@ -242,7 +242,7 @@ h3 {
 
 .project-text {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     position: absolute;
     top: 50%;
     left: 50%;
