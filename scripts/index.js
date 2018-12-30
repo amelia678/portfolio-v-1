@@ -39,7 +39,7 @@ const photospotterImg = document.getElementById('photospotterImg');
 const reactCitalImg = document.getElementById('reactCitalImg')
 
 photospotterImg.addEventListener('mouseover', () => {
-    photospotterImg.src = "../images/photospotter-fast.gif"
+    photospotterImg.src = "../images/photospotter-optimize.gif"
 });
 
 photospotterImg.addEventListener('mouseout', () => {
