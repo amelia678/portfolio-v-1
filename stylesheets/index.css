@@ -189,6 +189,10 @@ h3 {
     width: 100%;
 }
 
+.featured {
+    text-align: center;
+}
+
 .project-holder {
     /* outline: solid 5px blue; */
     display: flex;
