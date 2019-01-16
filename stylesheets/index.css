@@ -370,4 +370,8 @@ SKILLS SECTION
         font-size: 12px;
     }
 
+    .video {
+        max-width: 300px;
+    }
+  
 }
