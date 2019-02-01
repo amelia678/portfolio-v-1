@@ -403,9 +403,10 @@ nav {
 #menu-icon {
 
 	display: hidden;
-	width: 40px;
+	width: 37px;
 	height: 40px;
-	background: #4C8FEC url(../img/menu-icon.png) center;
+    background: #4C8FEC url(/images/menu-icon.png) center;
+    /* padding: 5px; */
 
 }
 
