@@ -69,7 +69,7 @@ width: 100%;
 .nav-container {
     display: inline-block;
     /* outline: solid 1px red; */
-  
+    margin-bottom: 30px;
 }
 
 .sticky {
