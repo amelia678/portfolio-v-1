@@ -29,6 +29,7 @@ background-color: white;
 border-bottom: 1px solid #CCB671;
 display: flex;
 width: 100%;
+height: 76px;
 
 }
 .logo-text {
@@ -66,11 +67,6 @@ width: 100%;
     
 }
 
-.nav-container {
-    display: inline-block;
-    /* outline: solid 1px red; */
-    margin-bottom: 30px;
-}
 
 .sticky {
     position:fixed;
@@ -383,21 +379,14 @@ SKILLS SECTION
   
 }
 
-/* responsive nav bar */
+/* Responsive Menu */
 
-header {
-    background: #fff;
-    width: 100%;
-    height: 76px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-}
+
 
 nav {
     float: right;
-    padding: 20px;
+    padding-bottom: 30px;
+    /* padding-right: 20px; */
 }
 
 #menu-icon {
@@ -405,7 +394,7 @@ nav {
 	display: hidden;
 	width: 37px;
 	height: 40px;
-    background: #4C8FEC url(/images/menu-icon.png) center;
+    background:lightseagreen url(/images/menu-icon.png) center;
     /* padding: 5px; */
 
 }
