@@ -333,6 +333,7 @@ SKILLS SECTION
   .skill-icons .fas,
   .skill-icons img {
     font-size: 40px;
+    margin: 20px;
   }
 
   .skill {
