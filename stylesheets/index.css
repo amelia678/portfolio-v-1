@@ -1,464 +1,410 @@
 @keyframes zoom {
-    0% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
 
-    100% {
-        transform: scale(1.25);
-    }
+  100% {
+    transform: scale(1.25);
+  }
 }
-
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
-    scroll-behavior: smooth;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    text-align: left;
-
+  font-family: "Raleway", sans-serif;
+  text-align: left;
 }
-
 
 .navbar {
-background-color: white;
-border-bottom: 1px solid #CCB671;
-width: 100%;
-height: 76px;
-
-
+  background-color: white;
+  border-bottom: 1px solid #ccb671;
+  width: 100%;
+  height: 76px;
 }
 .logo-text {
- color: black;
- font-size: 30px;
- display: inline-block;
- text-decoration: none;
- padding-top: 20px;
- padding-left: 10px;
- font-weight: bold;
+  color: black;
+  font-size: 30px;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-weight: bold;
 }
 
 .nav {
-    font-size: 32px;
-    display: inline;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 8px;
-    padding-right: 8px;
-    white-space: normal;
-    font-family: 'Raleway', sans-serif;
-    float: right;
-
+  font-size: 32px;
+  display: inline;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  white-space: normal;
+  font-family: "Raleway", sans-serif;
+  float: right;
 
   /* outline: 1px solid red */
 }
 
 .nav-link {
-    color: black;
-    font-family: 'Questrial', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-align: center;
-    text-decoration: none;
-    margin-right: 6px;
-
-
-
+  color: black;
+  font-family: "Questrial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 6px;
 }
 
 .nav-container {
-    float: right;
-    padding: 10px;
+  float: right;
+  padding: 10px;
 }
 
-
 .sticky {
-    position:fixed;
-    top:0;
-    width:100%;
-    z-index: 1030;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
 }
 
 .sticky + body {
-    padding-top:102px;
+  padding-top: 102px;
 }
 
 .hero-image {
-    background-image: url(../images/gem-pink-precious-1468309-min.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    min-height: 450px;
-    min-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    margin-bottom: 3px;
-
-
+  background-image: url(../images/gem-pink-precious-1468309-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 450px;
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 3px;
 }
 
 .hero-image h1 {
-    /* font-family: 'Playfair Display', serif; */
-    color: white;
-    font-size: 36px;
-    text-align: left;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    /* right: 30%; */
-    transform: translate(-50%, -50%);
-    opacity: 0.8;
-
+  /* font-family: 'Playfair Display', serif; */
+  color: white;
+  font-size: 36px;
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  /* right: 30%; */
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
 }
 
 .center-center {
-    display: flex;
-    justify-content: center;
-    align-items: initial;
-
+  display: flex;
+  justify-content: center;
+  align-items: initial;
 }
 
 .about-me {
-    margin: auto;
+  margin: auto;
 }
 
-.headshot{
-
-    border-radius: 50%;
-    min-width: 250px;
-   margin: 30px;
-
-
+.headshot {
+  border-radius: 50%;
+  min-width: 250px;
+  margin: 30px;
 }
 /* how to center an image and control size !!! */
 .my-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 .image-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .bio {
-    margin: 20px;
-    padding-right: 40px;
-    padding-left: 40px;
-    text-align: center;
+  margin: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  text-align: center;
 }
 
 h2 {
-    text-align: center;
-    color: lightseagreen;
-    font-size: 32px;
+  text-align: center;
+  color: lightseagreen;
+  font-size: 32px;
 }
 
 .h2-padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .portfolio {
-    background-color: lightsteelblue;
-
+  background-color: lightsteelblue;
 }
 
 .portfolio-text {
-    color: honeydew;
+  color: honeydew;
 }
 h3 {
-    padding: 20px;
-    color: white;
-    font-size: 26px;
+  padding: 20px;
+  color: white;
+  font-size: 26px;
 }
 .project-photo {
-    max-height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    width: 100%;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  width: 100%;
 }
 
 .featured {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 900px;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
 }
 
 .project-holder {
-    /* outline: solid 5px blue; */
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-
+  /* outline: solid 5px blue; */
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
 }
 
-
 .project-container {
-    width: 40%;
-    display: flex;
-    min-height: 300px;
-    flex-direction: column;
-    align-items: center;
-    /* outline: solid 5px red; */
-    margin: 5px;
-    min-width: 600px;
-
-
+  width: 40%;
+  display: flex;
+  min-height: 300px;
+  flex-direction: column;
+  align-items: center;
+  /* outline: solid 5px red; */
+  margin: 5px;
+  min-width: 600px;
 }
 
 /* OVERLAY project photo */
 .overlay-container {
-    position: relative;
-    width: 90%;
+  position: relative;
+  width: 90%;
 }
 
 .overlay {
   position: absolute;
   top: 70%;
-  bottom:0;
+  bottom: 0;
   left: 0;
   right: 0;
   height: 25%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: skyblue;
 }
 
 .overlay-container:hover .overlay {
-    opacity: .9;
+  opacity: 0.9;
 }
 
 .overlay-container:active .overlay {
-    opacity: .9;
+  opacity: 0.9;
 }
 
 .project-text {
-    color: white;
-    font-size: 16px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.project-buttons a{
-    displaY: inline-block;
-    border: 2px solid paleturquoise;
-    color: blanchedalmond;
-    text-decoration: none;
-    border-radius: 3px;
-    font-size: 18px;
-    padding: 7px 10px;
-    font-weight: 500;
+.project-buttons a {
+  display: inline-block;
+  border: 2px solid paleturquoise;
+  color: blanchedalmond;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 7px 10px;
+  font-weight: 500;
 
-
-/*
+  /*
 SKILLS SECTION
 */
 }
 .skill-icons {
-    display: flex;
-    justify-content: center;
-    align-content: space-around;
-    flex-wrap: wrap;
-
-
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .skill-icons .fab,
 .skill-icons .fas,
-.skill-icons img{
-    font-size: 50px;
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-
-    align-content: space-evenly;
-    color: rgb(28, 38, 34);
+.skill-icons img {
+  font-size: 50px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  align-content: space-evenly;
+  color: rgb(28, 38, 34);
 }
 
 /* CONTACT SECTION */
 .contact-links {
-    background-color: darkslategrey;
-    padding:  8px 12px;
-    display: flex;
-    justify-content: center;
+  background-color: darkslategrey;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-links .fab,
 .contact-links .fas {
-    color: white;
-    font-size: 36px;
-
-
+  color: white;
+  font-size: 36px;
 }
 
 .contact-links a {
-    margin: 0 40px;
-
+  margin: 0 40px;
 }
 
 .contact-links a:hover .fab,
 .contact-links a:hover .fas,
 .contact-links a:active .fab,
-.contact-links a:active .fas  {
-    color: lightblue;
-    animation-name: zoom;
-    animation-duration: .25s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
+.contact-links a:active .fas {
+  color: lightblue;
+  animation-name: zoom;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
 }
-
 
 @media screen and (min-width: 640px) {
-    .navbar-brand {
-        display: inline-block;
-        justify-content: space-between;
-        align-items: center;
+  .navbar-brand {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    }
+  .about-me {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
-    .about-me {
-        display: flex;
-        flex-direction: row-reverse;
-    }
+  .about-me-container {
+    width: 60%;
+    padding-right: 18px;
+  }
 
-    .about-me-container {
-        width: 60%;
-        padding-right: 18px;
-    }
-
-    .my-photo {
-        width: 40%;
-    }
+  .my-photo {
+    width: 40%;
+  }
 }
 
-
-
 @media screen and (max-width: 580px) {
-    .project-container {
-        min-width: 400px;
-    }
+  .project-container {
+    min-width: 400px;
+  }
 
-    .skill-icons .fab,
-    .skill-icons .fas,
-    .skill-icons img {
+  .skill-icons .fab,
+  .skill-icons .fas,
+  .skill-icons img {
     font-size: 40px;
+  }
 
-    }
+  .skill {
+    font-size: 15px;
+  }
 
-    .skill {
-        font-size:15px
-    }
+  .contact-links a {
+    margin: 0 20px;
+  }
 
-    .contact-links a {
-        margin: 0 20px;
-    }
+  .project-text {
+    font-size: 12px;
+  }
 
-    .project-text {
-        font-size: 12px;
-    }
-
-    .video {
-        max-width: 300px;
-    }
-
+  .video {
+    max-width: 300px;
+  }
 }
 
 /* Responsive Menu */
 
-
-
-
-
 #menu-icon {
-
-	display: hidden;
-	width: 37px;
-	height: 40px;
-    background:lightseagreen url(/images/menu-icon.png) center;
-    /* padding: 5px; */
-
+  display: hidden;
+  width: 37px;
+  height: 40px;
+  background: lightseagreen url(/images/menu-icon.png) center;
+  /* padding: 5px; */
 }
 
 a:hover#menu-icon {
-
-	background-color: #444;
-	border-radius: 4px 4px 0 0;
-
+  background-color: #444;
+  border-radius: 4px 4px 0 0;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 li {
-
-	display: inline-block;
-	padding: 10px
-
+  display: inline-block;
+  padding: 10px;
 }
 
 @media screen and (max-width: 640px) {
+  header {
+    position: absolute;
+  }
 
-    header {
-        position: absolute;
-    }
+  #menu-icon {
+    display: inline-block;
+  }
 
-    #menu-icon {
-        display: inline-block
-    }
+  nav ul,
+  nav:active ul {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: #fff;
+    border: 5px solid #444;
+    right: 20px;
+    top: 35px;
+    width: 50%;
+    border-radius: 4px 0 4px 4px;
+  }
 
-    nav ul, nav:active ul {
+  nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
 
-		display: none;
-		position: absolute;
-		padding: 20px;
-		background: #fff;
-		border: 5px solid #444;
-		right: 20px;
-		top: 35px;
-		width: 50%;
-		border-radius: 4px 0 4px 4px;
-
-    }
-
-    nav li {
-
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-
-    }
-
-    nav:hover ul {
-
-		display: block;
-
-	}
+  nav:hover ul {
+    display: block;
+  }
 }
